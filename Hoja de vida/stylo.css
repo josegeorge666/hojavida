@@ -1,0 +1,125 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(14, 86, 114);
+}
+h1{
+    display: inline block;
+    text-align: center; 
+}
+.menu{
+    background: orangered;
+    list-style: none;
+    text-align: center; 
+    padding: 0;
+    margin: auto;
+    width: 100%;
+    max-width: 800px;
+    border-radius: 20px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 20px;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+.menu li a:hover{
+    background: rgb(255, 0, 0);
+}
+.name.img{
+    position: absolute;
+    top: 18%;
+    right: 50%;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    transform:scaleY(5deg);
+    overflow: hidden;
+}
+.name.img img{
+    width: 18px;
+    height: 18px; 
+    }
+
+.name{
+    width: 100%;
+    height: 100px;
+    margin: 5% auto;
+    background: orange;
+    transform: scaleY(5deg);
+    padding: 5px;
+    max-width: 800px;
+    border-radius: 20px;
+}
+.name.content{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 25%;
+}
+.name.content.p-1{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 65px;
+    transform: scaleY(5deg);
+}
+.name.content.p-2{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 65px;
+    transform: scaleY(5deg);
+
+}
+
+.info {
+    width: 100%;
+    height: 100%;
+    background: orange;
+    margin: 5% auto;
+    padding: 5px;
+    max-width: 800px;
+    border-radius: 20px;
+}
+.info.tituloseccion {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px red;
+}
+.info.tituloinfo {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bolder;
+    display: inline;
+    margin-right: 20px ;
+}
+.info.infoinfo {
+    color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: normal;
+    display: inline;
+}
+footer{
+    padding: 0;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    height: 0;
+    background: orange;
+    margin: 3% auto; 
+}
+
+
+
+
+

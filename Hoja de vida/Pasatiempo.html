@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Pasatiempo</h1>
+    <ul class="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="Familia.html">Familia</a></li>
+        <li><a href="Trabajo.html">Trabajo</a></li>
+        <li><a href="Pasatiempo.html">Pasatiempo</a></li>
+    </ul>
+    <section>
+      <h2>MIS PASATIEMPOS</h2>
+      <a href="#modal" class="open-modal-button">Abrir Modal</a>
+      <div id="modal" class="modal">
+          <div class="modal-content">
+              <img src="CONCIERTO.jpg" class="responsive-img" alt="imagen1">
+              <a href="#" class="clouse-button">Cerrar</a>
+          </div>
+      </div>
+      <h2>MI INSTRUMENTO</h2>
+      <img src="SONOR.jpg" class="responsive-img" alt="imagen1">
+      <h2>LA PLAYA</h2>
+      <img src="PLAYA.jpg" class="responsive-img" alt="imagen2">
+      <h2>LOKI Y THOR</h2>
+      <img src="THOR.jpg" class="responsive-img" alt="imagen3">
+  </section>
+    <footer>
+        <p>Mi hoja de vida</p>
+        <h3>Jose George Velez Alvarez</h3>
+    </footer>
+    <style>
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background:  #10a5b2;
+}
+h1{
+    display: inline block;
+    text-align: center; 
+}
+.menu{
+    background: orangered;
+    list-style: none;
+    text-align: center; 
+    padding: 0;
+    margin: auto;
+    width: 100%;
+    max-width: 800px;
+    border-radius: 20px;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 20px;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+.menu li a:hover{
+    background: rgb(255, 0, 0);
+}
+        /*estilo del boton modal*/
+        .open-modal-button{
+    background-color: orangered;
+    color: aliceblue;
+    border: none !important;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px;
+    cursor: pointer;
+}
+/*estilo moidal oculto*/
+.modal{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 7);
+}
+/*estilo del contenido del modal*/
+.modal-content{
+    background-color: orange;
+    margin: 15% auto;
+    padding: 20px;
+    width: 70%;
+}
+/*estilo del boton para cerrar el modal*/
+.close-button{
+    float: right;
+    background-color: aqua;
+    color: aliceblue;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+/*aplicar el estilo del modal cuando el id esta en target*/
+:target{
+    display: block;
+}
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+header{
+    background-color: #7e161b;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+}  
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: #555;
+    }
+nav a{
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+section{
+    padding: 20px;
+    text-align: center;
+}
+.responsive-img{
+    max-width: 100%;
+    height: auto;
+}
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+@media (max-width:600px) {
+    nav{
+        flex-direction: column;
+        align-items: center;
+       }
+    
+}
+</style>
+</body>
+</html>
